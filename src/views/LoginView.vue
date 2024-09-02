@@ -1,8 +1,8 @@
 <template>
     <div>
         <h1>Login</h1>
-        <input type="text" placeholder="email" v-model="email"><br>
-        <input type="password" placeholder="password" v-model="password"><br>
+        <input type="text" placeholder="email" v-model="email" id="email"><br>
+        <input type="password" placeholder="password" v-model="password" id="password"><br>
         <button @click="login">Login</button>
         <p>{{ feedback }}</p>
         <div v-if="error">
